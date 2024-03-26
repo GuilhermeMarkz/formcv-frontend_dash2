@@ -71,7 +71,7 @@ function convertDateFormat(dateObj) {
 
 function new_relatorio(dateStr) {   
     let dateFormated = convertToDateObj(dateStr);
-    errDisplay.innerText = "Deu Merda";
+    errDisplay.innerText = "";
     
     if(dateFormated === 0) {
         errDisplay.innerText = "ERRO - Data inválida!";

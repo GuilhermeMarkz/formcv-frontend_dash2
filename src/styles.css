@@ -38,33 +38,33 @@
 
 #brand_FORM{
     color: white; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold; font-size: 32px;
+    font-family: "Lexend", sans-serif; font-weight: bold; font-size: 32px;
     padding-left: 25px;
 }
 #brand_CV{
     color: rgb(30, 141, 20); 
-    font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold; font-size: 32px;
+    font-family: "Lexend", sans-serif; font-weight: bold; font-size: 32px;
 }
 
 
 #text_conta_nav{
     color: white; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold; font-size: 16px;
+    font-family: "Lexend", sans-serif; font-weight: bold; font-size: 16px;
 }
 
 #text_relatorios_nav{
     color: white; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold; font-size: 16px;
+    font-family: "Lexend", sans-serif; font-weight: bold; font-size: 16px;
 }
 
 #text_relatorios_form{
     color: rgb(0, 0, 0); 
-    font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 25px;
+    font-family: "Lexend", sans-serif; font-size: 25px;
 }
 
 #text_criarrel_form{
     color: rgb(0, 0, 0); 
-    font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 20px;
+    font-family: "Lexend", sans-serif; font-size: 20px;
 }
 
 #rel_header_row{
@@ -81,7 +81,11 @@
     border-color: rgba(25, 76, 41, 1);
     background-color: rgba(25, 76, 41, 1);
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold; font-size: 15px;
+    font-family: "Lexend", sans-serif; font-size: 15px;
+}
+
+#rel_list{
+    margin: auto;
 }
 
 #form-fri-tab{
@@ -103,3 +107,37 @@
 #form-mon-tab{
     color: green;
 }
+
+hr{
+    color: rgb(0, 0, 0);
+}
+
+#hr-branco{
+    color: rgb(255, 255, 255);
+}
+
+#button-log_date{
+    color: white;
+    background-color: rgba(25, 76, 41, 1);
+}
+
+
+  .nav-bar {
+    font-family: "Lexend", sans-serif;
+    font-weight: bold;
+    color: #f1fff1;
+  }
+
+  label {
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "Lexend", sans-serif;
+  }
+
+  .small_label {
+    font-size: 16px;
+  }
+
+  
+
