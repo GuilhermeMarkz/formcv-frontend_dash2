@@ -4,8 +4,7 @@ const errDisplay = document.getElementById('input-log_date-err');
 
 let test_id = 0;
 
-function verifyDate(day, month, year)
-{
+function verifyDate(day, month, year) {
     if (day < 1 || month < 1 || year < 1965 || year > 9999)
         return false;
 
@@ -71,7 +70,7 @@ function convertDateFormat(dateObj) {
 
 function new_relatorio(dateStr) {   
     let dateFormated = convertToDateObj(dateStr);
-    errDisplay.innerText = "Deu Merda";
+    errDisplay.innerText = ""; // Mensagem de erro vazia
     
     if(dateFormated === 0) {
         errDisplay.innerText = "ERRO - Data inválida!";
@@ -121,3 +120,15 @@ function new_relatorio(dateStr) {
         remove_relatorio(tuple_id);
     });
 }
+
+window.addEventListener('keydown',function(e) {
+    if (e.keyIdentifier=='U+000A' || e.keyIdentifier=='Enter' || e.keyCode==13) {
+        if (e.target.nodeName=='INPUT' && e.target.type=='text') {
+            e.preventDefault();
+            let input_logDate = document.getElementById("input-log_date");
+            new_relatorio(input_logDate.value);
+            test_id++;
+            return false;
+        }
+    }
+}, true);
