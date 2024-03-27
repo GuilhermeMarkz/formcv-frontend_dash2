@@ -1,79 +1,90 @@
-#nav_bar{
+#nav_bar {
     background-color: rgba(25, 76, 41, 1);
     height: 72px;
 }
 
-#input-log_date{
+#input-log_date {
     width: 135px;
 }
 
-#menu_div{
+#menu_div {
     background-color: rgba(25, 76, 41, 1);
     padding: 0px;
 }
 
-#content_row{
-    width:auto;
+#content_row {
+    width: auto;
     margin: auto;
     min-height: 571px;
 }
 
-#rel_list{
+#rel_list {
     padding: 5px;
     border: 30px solid rgba(25, 76, 41, 1);
 }
 
-#form_new{
+#form_new {
     background-color: rgb(255, 255, 255);
     padding: 10px;
     min-width: 1000px;
 }
 
-#footer_row{
+#footer_row {
     background-color: rgba(25, 76, 41, 1);
     min-height: 200px;
     margin: auto;
-    width:auto;
+    width: auto;
 }
 
-#brand_FORM{
-    color: white; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold; font-size: 32px;
+#brand_FORM {
+    color: white;
+    font-family: "Lexend", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
     padding-left: 25px;
 }
-#brand_CV{
-    color: rgb(30, 141, 20); 
-    font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold; font-size: 32px;
+
+#brand_CV {
+    color: rgb(30, 141, 20);
+    font-family: "Lexend", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
 }
 
 
-#text_conta_nav{
-    color: white; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold; font-size: 16px;
+#text_conta_nav {
+    color: white;
+    font-family: "Lexend", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
 }
 
-#text_relatorios_nav{
-    color: white; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold; font-size: 16px;
+#text_relatorios_nav {
+    color: white;
+    font-family: "Lexend", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
 }
 
-#text_relatorios_form{
-    color: rgb(0, 0, 0); 
-    font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 25px;
+#text_relatorios_form {
+    color: rgb(0, 0, 0);
+    font-family: "Lexend", sans-serif;
+    font-size: 25px;
 }
 
-#text_criarrel_form{
-    color: rgb(0, 0, 0); 
-    font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 20px;
+#text_criarrel_form {
+    color: rgb(0, 0, 0);
+    font-family: "Lexend", sans-serif;
+    font-size: 20px;
 }
 
-#rel_header_row{
+#rel_header_row {
     width: auto;
     height: auto;
     margin: 0px;
 }
 
-#rel_form{
+#rel_form {
     margin-left: 10px;
     margin-right: 10px;
     border-width: 10px;
@@ -81,25 +92,31 @@
     border-color: rgba(25, 76, 41, 1);
     background-color: rgba(25, 76, 41, 1);
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold; font-size: 15px;
+    font-family: "Lexend", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
 }
 
-#form-fri-tab{
+#form-fri-tab {
     color: green;
 }
 
-#form-thu-tab{
+#form-thu-tab {
     color: green;
 }
 
-#form-wed-tab{
+#form-wed-tab {
     color: green;
 }
 
-#form-tue-tab{
+#form-tue-tab {
     color: green;
 }
 
-#form-mon-tab{
+#form-mon-tab {
     color: green;
+}
+
+#hr-branco {
+    color: white;
 }

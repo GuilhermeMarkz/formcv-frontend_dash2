@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport " content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
 
@@ -13,10 +14,13 @@
 
     <title>Resumo Semanal</title>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg" id="nav_bar">
         <div class="container-fluid">
-            <a class="navbar-brand text-uppercase" href="#" id="brand_FORM">FORM<b class="text-primary-bs-sucess" id="brand_CV">CV</b></a>
+            <a class="navbar-brand text-uppercase" href="#" id="brand_FORM">FORM<b class="text-primary-bs-sucess"
+                    id="brand_CV">CV</b></a>
+            <div style="text-align: end;">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: 20px;">
                     <li class="nav-item">
                         <a class="nav-link nav-bar" aria-current="page" href="#" id="text_conta_nav">Conta</a>
@@ -25,62 +29,83 @@
                         <a class="nav-link nav-bar" href="#" id="text_relatorios_nav">Relatórios</a>
                     </li>
                 </ul>
+            </div>
         </div>
     </nav>
-        <div class="row" id="content_row">
-            <div class="col-2" id="menu_div">
-                
-            </div>
+    <div class="row" id="content_row">
+        <div class="col-2" id="menu_div" style="width: 230px;">
+            <ul class="nav flex-column me-auto mb-2 mb-lg-0" style="margin-left: 10px;">
+                <li class="nav-item">
+                    <a class="nav-link nav-bar" aria-current="page" href="#" id="text_conta_nav">Conta</a>
+                </li>
+                <hr id="hr-branco">
+                <li class="nav-item">
+                    <a class="nav-link nav-bar" href="index_semanal.html" id="text_relatorios_nav">Relatórios</a>
+                </li>
+                <hr id="hr-branco">
+                <li class="nav-item">
+                    <a class="nav-link nav-bar" href="#" id="text_relatorios_nav">Outro lugar</a>
+                </li>
+                <hr id="hr-branco">
+                <li class="nav-item">
+                    <a class="nav-link nav-bar" href="#" id="text_relatorios_nav">10 Minutos contra a Dengue</a>
+                </li>
+            </ul>
+        </div>
 
-            <div class="col-10" id="form_new">
-                <form> <!--Criação de novo relatório semanal-->
-                    <h4 id="text_criarrel_form">Criar novo relatório</h4>
-                    <p>Data:
-                        <input id="input-log_date" type="text" class="form-control" placeholder="DD/MM/AAAA" aria-label="DD/MM/AAAA">
-                    </p>
-                </form>
+        <div class="col-10" id="form_new">
+            <form> <!--Criação de novo relatório semanal-->
+                <h4 id="text_criarrel_form">Criar novo relatório</h4>
+                <p>Data:
+                    <input id="input-log_date" type="text" class="form-control" placeholder="DD/MM/AAAA"
+                        aria-label="DD/MM/AAAA">
+                </p>
+            </form>
 
-                <button id="button-log_date">Novo</button><hr>
-                <h4 id="text_relatorios_form">Relatórios: </h4> <!--Título da tabela-->
+            <button id="button-log_date">Novo</button>
+            <hr>
+            <h4 id="text_relatorios_form">Relatórios: </h4> <!--Título da tabela-->
 
-                <h5 class="text-danger" id="input-log_date-err"><h5><br>
+            <h5 class="text-danger" id="input-log_date-err">
+                <h5><br>
 
-                <div id="rel_list" class="container-md rounded-3">
-                    <!--Cabeçalho da tabela-->
-                    <div id="tuple-heading" class="row align-items-start tuple-heading">
-                        <div class="col-4 tuple-heading-text column">
-                            Data
-                        </div>
-                        <div class="col-3 tuple-heading-text column">
-                            Status
-                        </div>
-                        <div class="col-3 tuple-heading-text column">
-                            Verficado
-                        </div>
-                        <div class="col-1 tuple-heading-text column">
-                            Detalhes
-                        </div>
-                        <div class="col-1 tuple-heading-text column">
-                            Eliminar
+                    <div id="rel_list" class="container-md rounded-3">
+                        <!--Cabeçalho da tabela-->
+                        <div id="tuple-heading" class="row align-items-start tuple-heading">
+                            <div class="col-4 tuple-heading-text column">
+                                Data
+                            </div>
+                            <div class="col-3 tuple-heading-text column">
+                                Status
+                            </div>
+                            <div class="col-3 tuple-heading-text column">
+                                Verficado
+                            </div>
+                            <div class="col-1 tuple-heading-text column">
+                                Detalhes
+                            </div>
+                            <div class="col-1 tuple-heading-text column">
+                                Eliminar
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="row align-items-start tuple-data">
-                
-                </div>
-            </div>
+                    <div class="row align-items-start tuple-data">
 
+                    </div>
         </div>
 
-        <div class="row" id="footer_row">
-            <div class="col-12 h150" id="footer_div">
+    </div>
 
-            </div>
+    <div class="row" id="footer_row">
+        <div class="col-12" style="height: 320px;" id="footer_div">
+
         </div>
+    </div>
     </div>
 
     <script src="index_semanal.js"></script>
     <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
